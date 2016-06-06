@@ -4,7 +4,7 @@ Sub ReverseGeocode_Sample
   Dim key As String
   
   Set gc = New GoogleReverseGeoCode
-  key = "yourapikey"
+  key = ""                                'Add your Google Map API key
   
   With gc
     .Lattitude = 25
